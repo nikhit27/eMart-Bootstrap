@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  
+  <style>
+    .vertical-align-middle { 
+		vertical-align: middle; 
+	}
+	
+  </style>
+  
+  
+</head>
+<body>
+ 
+ 
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">E-Mart</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse  justify-content-stretch" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="login.html">Login</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="seller-signup.html">Seller Sign-Up</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Buyer Sign-Up</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom">
+		<a href="#" class="navbar-brand">Terms & Conditions</a>
+	</nav>	
+	
+	
+	<div class="container mt-5">
+		<div class="card m-auto" style="width:600px">
+		<div class="card-body my-3">
+			
+            <form >
+                <div class="heading">
+                    <h4 class="form-heading">Sign Up</h4>
+                </div>
+				
+				
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-lg-6 ">	
+						<div class="form-group">
+							<label class="form-label" for="inputFirst">First Name</label>
+							<input class="form-control" id="inputFirst" placeholder="E.g. Ashwin" type="text">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6">	
+						<div class="form-group">
+							<label class="form-label" for="inputLast">Last Name</label>
+							<input class="form-control" id="inputLast" placeholder="E.g. Hegde" type="text">
+						</div>	
+					</div>
+				</div>
+                
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-lg-6 ">	
+						<div class="form-group">
+							<label class="form-label" for="inputEmail">Email</label>
+							<input class="form-control" id="inputEmail" placeholder="E.g. ashwinh@cybage.com" type="email">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6">	
+						<div class="form-group">
+							<label class="form-label" for="inputUser">Username</label>
+							<input class="form-control" id="inputUser" placeholder="E.g. ashwinhegde" type="text">
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-lg-6 ">	
+						<div class="form-group">
+							<label class="form-label" for="inputPassword">Password</label>
+							<input class="form-control" id="inputPassword" placeholder="Min. 8 Characters" type="password">
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12 col-lg-6 ">	
+						<div class="form-group">
+							<label class="form-label" for="inputConfirmPassword">Confirnm Password</label>
+							<input class="form-control" id="inputConfirmPassword" placeholder="Re-Type password" type="password">
+						</div>
+					</div>
+				</div>
+
+
+
+                <div class="form-check my-3">
+                    <label class="form-check-label">
+						<input type="checkbox" class="form-check-input"> I agree all your 
+							<a href="#">Terms of Services</a>
+					</label> 
+					
+                </div>
+				
+				<button class="btn btn-success" type="submit">Sign Up</button>
+				
+				<i class="material-icons vertical-align-middle ">
+					<abbr title="Enter your details for Sign-Up">help</abbr>
+				</i>
+				
+
+            </form>
+        </div>
+		</div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+

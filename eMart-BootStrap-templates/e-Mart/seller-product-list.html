@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <style>
+    .vertical-align-middle { 
+		vertical-align: bottom; 
+	}
+  </style>
+  
+  
+</head>
+<body>
+	
+	
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">E-Mart</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse  justify-content-stretch" id="collapsibleNavbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="seller-product-list.html">Your Items</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="seller-add-product.html">Add Item</a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#">Profile</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="login.html">Log Out</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom">
+		<a href="#" class="navbar-brand">Terms & Conditions</a>
+	</nav>	
+	
+
+
+<div class= "container-fluid">
+	
+	<div class="row">
+		<div class="col-2 bg-secondary">
+			
+				<h4 class="form-heading font-weight-bold form-group"> Filters </h4>
+				
+				<div class="row">
+					<div class="col-12 form-group ">
+						<h5 class="float-left">Price</h5>
+					</div>
+					
+					<div class="col-12 form-group">
+						<label class="form-label font-weight-bold " for="FromPrice" > From: </label>
+						<input class="form-control " id="FromPrice " type="number" step="100" min="0">
+					</div>
+					<div class="col-12 form-group">
+						<label class="form-label font-weight-bold " for="ToPrice" > To: </label>
+						<input class="form-control" id="ToPrice" type="number" step="100" min="0">
+					</div>
+					<div class="col-12 form-group">
+						<label class="form-label font-weight-bold " for="Manufacturer" > Manufacturer </label>
+						<input class="form-control" id="Manufacturer" type="text">
+					</div>
+					<div class="col-12 form-group ">
+					<button type="submit" id="btnFilter" class="btn btn-primary form-control">Filter</button>
+					</div>
+				</div>
+				
+				
+			
+		</div>
+		
+		<div class="col-10">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div class="col-md-6 col-sm-12 col-lg-4 my-2">	
+			<div class="card" >
+				<img 
+				class="card-img-top" 
+				src ="https://images.unsplash.com/photo-1559466273-d95e72debaf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+				alt = "Yummy Sandwich"
+				style="100%">
+				
+		
+				<div class="card-body">
+					<div class="row">
+						<div class="col-6">	
+							<h3 class="card-title"> Sandwich </h3>
+						</div>
+						<div class="col-6">	
+							<p class="text-right font-weight-bolder">Rs.150</p>
+						</div>
+					</div>	
+					
+					<div class="row">
+						<div class="col-6">	
+							<p class="card-text"> Crispy bread with tender chicken and tasty mayonesse and veggies</p>
+						</div>
+						<div class="col-6 text-center " >	
+							<div class="row ">
+								<div class="col-12 align-right my-2" >
+									<i class="material-icons vertical-align-middle ">local_shipping</i>
+									<span class="badge badge-success vertical-align-middle "> Free </span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 align-right" >
+									<a href="#" class="btn btn-primary "><i class="material-icons vertical-align-middle">create</i> Edit</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
